@@ -1,0 +1,1255 @@
+/*
+Theme Name: Gabadi
+Theme URI: http://gabadi3-feleplopes.rhcloud.com
+Author: Luiz Felipe Cordeiro Lopes
+Author URI: http://gabadi3-feleplopes.rhcloud.com
+Description: Site criado para a Juventude da 1ª Igreja Batista em Diamantina
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: gabadi3-feleplopes.rhcloud.com
+Tags: gabdi, igreja, jovens, Jesus, Cristo, Deus
+Text Domain: gabadi
+*/
+
+
+
+
+
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+body{
+                background-color: #f1f1f1;
+                margin: 0;
+                padding: 0;
+                
+            }
+            
+            
+            div, script{
+                margin: 0;
+                padding: 0;
+                //border: dashed 4px red;
+                outline: none;
+                
+            }            
+            
+            audio{
+                margin-top: 0px;
+                width: 22%;
+                height: 30px;
+                //border: dashed 4px red;
+            }
+            
+/*            img{
+                border: dashed 4px red;
+            }*/
+            
+            div#interface{
+                width: 100%;
+                height: auto;
+                margin: auto;
+            }
+                       
+                       
+            h1{
+                font-family: Arial;
+                font-size: 30pt;
+                color: #606060;
+                //text-shadow: 1px 1px 2px black;
+                font-family: 'Open Sans Condensed', sans-serif;
+                margin-bottom: auto;
+                margin-top: 0px;
+                //margin-right: 1%;
+             
+                
+                
+            }
+            
+            h1 a{
+                text-decoration: none;
+                color: #606060;
+            }
+
+            div#titulosobre{
+                display: table;
+                width: 100%;
+                height: auto;
+                //border: 1px dashed red;
+            }
+            
+            div#gabadi{
+                position: relative;
+                margin-top: 0.5px;
+                float:right;
+                //top: 3px;
+                margin-left: 6px;
+                //margin-right: 1%;
+                color: #88c1e4;
+            }
+
+            .tsobre{
+              float: left;
+               position: relative;
+               margin-top: 0px;
+               padding-top: 0px;
+            }
+
+            .post-title{
+                font-size: 30pt;
+            }
+
+
+            article#recados h1#titulo{
+                border-bottom: 1px solid gray;
+                margin-bottom: 10px;
+                font-size: 30pt;
+            }
+            
+            p{
+                font-family: 'Open Sans Condensed', sans-serif;
+                
+            }
+            p a{
+                text-decoration: none;
+                color: #606060;
+            }
+                 
+           
+            
+            p#psobre{
+                //margin-top: 60px;
+            }
+            
+div#topo{
+                
+                width: 100%;
+                //height: 100%;
+                margin-top: 0px;
+                padding: 0px;
+                //margin-bottom: -50px;
+                //margin-left: -7px;
+                margin-left: auto;
+                margin-right: auto;
+                //border: 1px dashed red;
+                
+                
+                
+            }
+           
+            nav#menu{
+                display: block;
+                margin: 0px auto;
+            }
+            
+           nav#menu ul{
+                text-align: center;
+                list-style: none;
+                text-transform: uppercase;
+                position: relative;
+                margin: 0;
+                padding: 0;
+                //top: -25px;
+                //border: 1px dashed red;
+                width: 100%;
+                
+                
+            }
+             
+            nav#menu li{
+                display: inline-block;
+                //margin: 0px 20px 0px 20px;
+                //background-color: #dddddd;
+                padding: 0.8% 1.5% 0.8% 1.5%;
+                margin: 0px 0px 0px 0px;
+                -webkit-transition: background-color 1s;
+                -moz-transition: background-color 1s;
+                -o-transition: background-color 1s;
+                -ms-transition: background-color 1s;
+                 transition: background-color 1s;
+                 //border: 1px dashed red;
+            }
+            
+            
+            
+            nav#menu li:hover{
+                background-color: #666666;
+                
+            }
+            
+            nav#menu a{
+                text-decoration: none;
+                color: gray;
+                font-size: 11pt;
+                font-family: 'Titillium Web', sans-serif; 
+                
+            }
+            
+            nav#menu a:hover{
+                color: #ffffff;
+            }
+            
+            
+            nav#menu ul li ul {
+                opacity: 0;
+                visibility: hidden;
+                 padding-left: 50px;
+                padding-right: 50px;
+                 position: relative;
+                
+            }
+            
+             nav#menu ul li ul li {
+                display: block;
+                position: absolute;
+                //right:1px;
+                
+                
+               
+            }
+            
+                        
+            nav#menu ul li ul li#adao {
+                //margin: 10px 0px 80px 0;
+                //padding: 10px 0px 10px 0;
+                
+                              
+            }
+            
+            
+            nav#menu ul li ul li#revista{
+                //margin: 80px 0px 10px 0;
+                
+                              
+            }
+            
+            div#grupo2{
+                width: 100%;
+                display: table;
+                margin-bottom: 3px;
+                margin-top: 0px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: white;
+                padding-bottom: 2px;
+                padding-top: 3px;
+                padding-left: 0px;
+                //padding-right: 10px;
+                border-top: 2px solid white;
+                border-bottom: 2px solid white;
+                box-shadow: 0px 0px 10px #ccc; 
+                
+            }
+            
+            div#grupo2 audio{
+                //display: inline-table;
+/*                height: 1000px;*/
+                //position: relative;
+                margin-top: 2.2%;
+                //margin-bottom: auto;
+                margin-left: 1%;
+                float: left;
+                //top: 84px;
+                
+            }
+            
+            img#logo{
+                float: left;
+                margin-left: 10%;
+                //display: inline-block;
+                //width: 170px;
+                //height: 80px;
+                //margin-top: 0px;
+            }
+            
+            h4#musica{
+                //text-align: right;
+                margin-top: 2.5%;
+                margin-left: 32%;
+                //margin-right: 95px;
+                //padding-top: 10px;
+                //padding-bottom: 1%;
+                //float: r;
+                //display: inline-table;
+                //top: 9%;
+                //left: 56%;
+                font-family: 'Open Sans Condensed', sans-serif;
+                color: #606060;
+                position: relative;
+                float: left;
+                //margin-top: 0;
+            }
+            
+            h4#siga{
+                //display: inline-table;
+                //text-align: right;
+                //margin-top: -50px;
+                //margin-right: 95px;
+                
+                //margin-bottom: 0px;
+                font-family: 'Open Sans Condensed', sans-serif;
+                color: #606060;
+                position: relative;
+                //top:9%;
+                //left:86%; 
+                margin-left: 1%;
+                margin-top: 2.5%;
+                float: left;
+                //margin-bottom: auto;
+            }
+            
+            img#icone{
+                //display: inline-table;
+                //float: left;
+                //position: relative;
+                margin-right: auto;
+                margin-top: 2.4%;
+                //margin-bottom: auto;
+                margin-left: 1%;
+                //top: 87px;
+                //border: dashed 4px red;
+                float: left;
+                position: relative;
+            }
+            
+            
+            
+            header#slides{
+            width: 100%;
+            height: 370px;
+            background-color: #f1f1f1;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 0px;
+            border-bottom: 2px solid #dddddd;
+            //box-shadow: 0px 0px 10px #ccc;
+           
+            
+            }
+            
+            .imagem{
+                width: 100%;
+            }
+
+            .imgprincipal{
+                border: 2px solid #cccccc;
+                box-shadow: 0px 0px 10px #ccc;
+                margin-top: 2px;
+            }
+                       
+            section#conteudo{
+                width: 86%;
+                height: auto;
+                display: table;
+                background-color: white;
+                padding: 30px 7% 10px 7%;
+                margin:auto;
+                //position: relative;
+                //padding-top: 10px;
+                border-top: 2px solid #ccc;
+                border-bottom: 2px solid white;
+                box-shadow: 0px 0px 10px gray;
+            }
+            
+
+            .thumbnail{
+                position: relative;
+                width: auto;
+                height: auto;
+                float: left;
+                border: 2px solid #cccccc;
+                box-shadow: 0px 0px 10px #ccc;
+                margin-right: 10px;
+                margin-top: 2px;
+                margin-bottom: 2px;
+
+            }
+
+            
+            article#sobre {
+                position: relative;
+                float: left;
+                width: 47.5%;
+                height: auto;
+                margin-left: 1.3%;
+                //margin-left: 100px;
+                text-align: justify;
+                //border: 1px solid black;
+                padding: 2px;
+                //margin-top: -10px;
+                margin-bottom: auto;
+                //border: dashed red 1px;
+                    
+            }
+            
+            article#fotos {
+                position: relative;
+                width: 47.5%;
+                height: auto;
+                margin-right: auto;
+                margin-bottom: 15px;
+                //left: 655px;
+                text-align: justify;
+                //border: 1px solid black;
+                padding: 2px;
+                //margin-top: -10px;
+                margin-left: 52.5%;
+                //border: dashed red 1px;
+                
+                
+            }
+            
+            article#fotos img{
+                width: 95%;
+                height: 340px;
+                margin-top: 2px;
+                
+            }
+            
+            
+            .divisao{
+                width: auto;
+                height: auto;
+                //background-color: gray;
+                //top: 370px;
+                left: 0px;
+                position: relative;
+                padding-top: 30px;
+                border-top: 1px solid gray;
+                box-shadow: 1px 1px 2px white;
+                margin: auto auto 0px auto;
+                
+                
+            }
+
+            div#divisao1{
+                width: auto;
+                height: auto;
+                //background-color: gray;
+                //top: 370px;
+                left: 0px;
+                position: relative;
+                padding-top: 30px;
+                //border-top: 1px solid gray;
+                box-shadow: 1px 1px 2px white;
+                margin: 0px auto auto auto;
+                
+                
+            }
+            
+            
+            
+            article#recados  {
+               position: relative;
+                float: left;
+                width: 47.5%;
+                height: auto;
+                margin-left: 1.3%;
+                //margin-left: 100px;
+                //top: -10px;
+                margin-top: 0px;   
+                text-align: justify;
+                //border: 1px solid black;
+                padding: 0px 10px 10px 10px;
+                //border: dashed red 1px;
+                
+            }
+            article#recados h1#titulo{
+                border-bottom: 1px solid gray;
+                margin-bottom: 10px;
+            }
+            
+            article#recados p{
+                width: 330px;
+                margin-left: 20px;
+            }
+            
+            .autor{
+                font-size: 10pt;
+                font-weight: bold;
+            }
+
+
+            article#colunas  {
+                position: relative;
+                float: left;
+                width: 47.5%;
+                height: auto;
+                margin-left: 1.3%;
+                //margin-left: 100px;
+                //top: -10px;
+                margin-top: 0px;   
+                text-align: justify;
+                //border: 1px solid black;
+                padding: 0px 10px 10px 10px;
+                //border: dashed red 1px;
+                
+            }
+
+            
+            article#videos {
+                position: relative;
+                margin-left: 52.5%;
+                width: 47.5%;
+                height: auto;
+                margin-right: auto;
+                //bottom: 70px;
+                //left: 565px;
+                text-align: justify;
+                //border: 1px solid black;
+                padding: 0px 10px 10px 10px;
+               //top: -10px;
+               //background: url('../_imagens/tv-antiga1.jpg') no-repeat;
+               //background-size: 560px 450px;
+               //background-position-y: 100px;
+               //background-position-x: -20px;
+               //border: dashed 4px red;
+               //border: dashed red 1px;
+            }
+
+
+            article#videos2{
+                position: relative;
+                margin-left: 52.5%;
+                width: 1px;
+                height: auto;
+                margin-right: auto;
+                //bottom: 70px;
+                //left: 565px;
+                text-align: justify;
+                //border: 1px dashed black;
+                padding: 0px 10px 10px 10px;
+            }
+
+
+            
+            img#tv{
+                 //border: dashed 4px red;
+                width: 99%;
+                height: 455px;
+                position: relative;
+            }
+            
+            .video{
+               //margin-left: 45px;
+                //margin-top: -44px;
+                width: 56%;
+                position: absolute;
+                top: 17.4%;
+                left: 7.2%;
+                //height: 290px;
+            }
+
+
+            .video iframe{
+              width: 137%;
+              height: 290px;
+            }
+            
+            div#antirodape{
+                width: 98%;
+                display: table;
+                background-color: #88c1e4;
+                height: 260px;
+                margin-bottom: 0px;
+                margin-left: auto;
+                margin-right: auto;
+                border: 0px solid gray;
+                box-shadow: 1px 1px 2px white;
+                padding: 1%;
+                //border: dashed 4px red;                               
+            }
+            
+            .fb-like-box{
+                //margin-bottom: 10px;
+                margin-left: 5%;
+                width: 20%;
+                //border: dashed 4px red;
+                position: relative;
+                float: left;
+                //left: 110px;
+                margin-top: 2%;
+            }
+            
+            form#fContato{
+                
+               position: relative;
+                width: 25%;
+                margin-left: 67%;
+                margin-right: auto;
+                //left: 850px;
+                margin-top: 4%;
+                //margin: -213px 90px auto;
+                //display: block;
+                //float: right;
+                //border: dashed 4px red;                                                         
+                
+             }
+             
+             form h4{
+                 color: #ffffff;
+                font-family: 'Open Sans Condensed', sans-serif;
+                margin-bottom: 2px;
+                text-indent: 12px;
+             }
+             
+             fieldset{
+                 background-color: #ffffff;
+                 border-radius: 15px;
+                 border: 1px solid #ffffff;
+                 height: 110px;
+                 width: 100%;
+             }
+             
+             input{
+                 width: 90%; 
+                 margin: auto 9px;
+                 padding: 5px;
+                 background-color: #e1f5f5;
+                 border-radius: 15px;
+                 border: 1px solid #ffffff;
+                 font-size: 11pt;
+                 
+             }
+             
+                       
+             input#cNome{
+                 margin-bottom: 10px;
+                 margin-top: 20px;
+             }
+             
+                          
+             input#cEnviar{
+                 width: 60px;
+                 height: 30px;
+                 border: none;
+                 background-color: #ffffff;
+                 color: #88c1e4;
+                 font-size: 11pt;
+                 
+             }
+             
+             
+             
+            footer#rodape{
+                width: auto;
+                //background-color: red;
+                height: 55px;
+                margin-top: 0px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: auto;
+                border-top: 2px solid white;
+                border-bottom: 2px solid white;
+                box-shadow: 1px 1px 4px gray;
+                position: relative;
+            }
+            
+            footer#rodape p#assinatura{
+                text-align: right; 
+                right: 9%;
+                //margin-right: 50px; 
+                position: absolute;
+                top:5px;
+                
+            }
+            
+            footer#rodape p#endereco{
+                text-align: left;
+                left: 9%;
+                //margin-left: 110px;
+                position: absolute;
+                top: 5px;
+                
+            }
+            
+            
+/*Mobile*/
+            @media(max-width: 320px){
+             
+            h1{
+                    font-size: 16pt;
+                    
+                }
+                
+            
+                h4{
+                    font-size: 10pt;
+                }    
+                
+                p{
+                    font-size: 10.5pt;
+                }
+                
+                img#logo{
+                    margin-left: 3%;
+                    width: 130px;
+                }   
+                
+                h4#musica{
+                
+                margin-top: 9%;
+                margin-left: 1%;
+                
+            }
+            
+            div#grupo2 audio{
+                margin-left: 1%;
+                margin-top: 7.5%;
+                
+            }
+            audio{
+                width: 40px;
+            }
+            
+            h4#siga{
+                
+                margin-top: 9%;
+                
+            }
+            
+            img#icone{
+                margin-top: 9%;
+            }
+                
+            header#slides{
+            height: 270px;
+            }   
+            
+            .imagem{
+                width: 2px;
+                height: 37px;
+            }
+            
+            .gallery .item {
+            width: 100%;  
+            height: 37px;
+            overflow: hidden;
+            text-align: center;
+            background: #f0f0f0;
+  
+            }
+
+
+
+            div#divisao1{
+                padding-top: 0px;
+                
+                
+            }
+                
+                article#sobre{
+                float: none;
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                border-bottom: 1px solid gray;
+                padding-bottom: 8%;
+                
+            }
+            
+            article#fotos{
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                border-bottom: 1px solid gray;
+                margin-top: 5%;
+                padding-bottom: 8%;
+            }
+            
+            article#fotos img{
+                width: 95%;
+                height: 250px;
+                margin-top: 2px;
+                
+            }
+
+
+            .thumbnail{
+                margin-top: auto;
+                margin-left: 7%;
+
+            }
+            
+            article#colunas{
+               float: none;
+               width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                border-bottom: 1px solid gray;
+                padding-bottom: 8%;
+                
+            }
+            
+            article#videos{
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                border-bottom: 1px solid gray;
+                margin-top: 8%; 
+            }
+            
+            
+            img#tv{
+                //border: dashed 4px red;
+                width: 99%;
+                height: 290px;
+                position: relative;
+            }
+            
+            
+            
+            .video iframe{
+              width: 135%;
+              height: 73%;
+            }
+            
+            
+              .video{
+                //width: 54%;
+                margin-left: 0.05%;
+                top: 12%;
+                height: 73%; 
+                
+            }
+            
+            
+            
+            article#recados{
+                width: 87.5%;
+                float: none;
+                margin-left:auto;
+                margin-right: auto;
+                
+            }
+            
+            article#recados p{
+                width: auto;
+                margin-left: 20px;
+            }
+            
+            
+            
+            .divisao{
+            border-top: none;
+            }
+            
+            
+            .fb-like-box{
+            float: none;
+            margin-left: 2%;
+            margin-right: auto;
+            }
+            
+                       
+            
+            form#fContato{
+                margin-left: 6%;
+                margin-top: 7%;
+                width: 80%;
+                margin-bottom: 2%;
+             }
+            
+            form h4{
+                font-size: 11pt;
+                text-indent: 3px;
+             }
+             
+             
+/*             footer#rodape p#assinatura{
+                right: 50px;
+                
+            }
+            
+            footer#rodape p#endereco{
+                text-align: left;
+                left: 10px;
+                
+            }*/
+                
+        }
+
+
+
+
+
+
+
+
+/*Mobile*/
+            @media(min-width: 321px) and (max-width: 360px){
+                
+                h1{
+                    font-size: 16pt;
+                    
+                }
+                
+            
+                h4{
+                    font-size: 10pt;
+                }    
+                
+                p{
+                    font-size: 10.5pt;
+                }
+                
+                img#logo{
+                    margin-left: 3%;
+                    width: 130px;
+                }   
+                
+                h4#musica{
+                
+                margin-top: 9%;
+                margin-left: 1%;
+                
+            }
+            
+            div#grupo2 audio{
+                margin-left: 1%;
+                margin-top: 7.5%;
+                
+            }
+            audio{
+                width: 40px;
+            }
+            
+            h4#siga{
+                
+                margin-top: 9%;
+                
+            }
+            
+            img#icone{
+                margin-top: 9%;
+            }
+                
+            header#slides{
+            height: 270px;
+            }   
+            
+            .imagem{
+                width: 100%;
+                height: 270px;
+            }
+            
+            .gallery .item {
+            height: 270px;
+  
+            }
+    
+            div#divisao1{
+                padding-top: 0px;
+                
+                
+            }
+            
+                
+                
+                
+                article#sobre{
+                float: none;
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                border-bottom: 1px solid gray;
+                padding-bottom: 8%;
+                
+            }
+            
+            article#fotos{
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                border-bottom: 1px solid gray;
+                margin-top: 5%;
+                padding-bottom: 8%;
+            }
+            
+            article#fotos img{
+                width: 95%;
+                height: 250px;
+                margin-top: 2px;
+                
+            }
+            
+            article#colunas{
+               float: none;
+               width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                border-bottom: 1px solid gray;
+                padding-bottom: 8%;
+                
+            }
+            
+            article#videos{
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                border-bottom: 1px solid gray;
+                margin-top: 8%; 
+            }
+            
+             img#tv{
+                //border: dashed 4px red;
+                width: 99%;
+                height: 290px;
+                position: relative;
+            }
+            
+            
+            
+            .video iframe{
+              width: 136%;
+              height: 74%;
+            }
+            
+            
+              .video{
+                //width: 54%;
+                margin-left: 0.05%;
+                top: 11.8%;
+                height: 74%; 
+                
+            }
+            
+            
+            article#recados{
+                width: 87.5%;
+                float: none;
+                margin-left:auto;
+                margin-right: auto;
+                
+            }
+            
+            article#recados p{
+                width: auto;
+                margin-left: 20px;
+            }
+            
+            
+            
+            .divisao{
+            border-top: none;
+            }
+            
+            
+            .fb-like-box{
+            float: none;
+            margin-left: 7%;
+            margin-right: auto;
+            }
+            
+                       
+            
+            form#fContato{
+                margin-left: 6%;
+                margin-top: 7%;
+                width: 80%;
+                margin-bottom: 2%;
+             }
+            
+            form h4{
+                font-size: 11pt;
+                text-indent: 3px;
+             }
+                
+}
+
+    @media  (min-width: 361px) and (max-width: 800px){
+                
+                h4#musica{
+                
+                margin-top: 5%;
+                margin-left: 5%;
+                
+            }
+            
+            div#grupo2 audio{
+                
+                margin-top: 4.5%;
+            }
+            
+            h4#siga{
+                
+                margin-top: 5%;
+                
+            }
+            
+            img#icone{
+                margin-top: 5%;
+            }
+            
+            article#sobre{
+                float: none;
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                border-bottom: 1px solid gray;
+                padding-bottom: 8%;
+                
+            }
+            
+            article#fotos{
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                border-bottom: 1px solid gray;
+                margin-top: 5%;
+                padding-bottom: 8%;
+            }
+            
+            article#colunas{
+               float: none;
+               width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                border-bottom: 1px solid gray;
+                padding-bottom: 8%;
+                
+            }
+            
+            article#videos{
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                border-bottom: 1px solid gray;
+                margin-top: 8%; 
+            }
+            
+              .video{
+                //width: 54%;
+                margin-left: 0.05%;
+            }
+            
+            
+            article#recados{
+                width: 87.5%;
+                float: none;
+                margin-left:auto;
+                margin-right: auto;
+                
+            }
+            
+            article#recados p{
+                width: auto;
+                margin-left: 20px;
+            }
+            
+            
+            
+            .divisao{
+            border-top: none;
+            }
+            
+            form#fContato{
+                
+                margin-top: 7%;
+                
+             }
+            
+            form h4{
+                font-size: 11pt;
+                text-indent: 3px;
+             }
+            
+             
+                
+            }
+
+
+
+            /* Tablet*/
+            @media (min-width: 801px) and (max-width: 960px){
+                
+                h1{
+                    font-size: 25pt;
+                    
+                }
+                
+                p{
+                    font-size: 11pt;
+                }
+                
+
+/*            h4#musica{
+                left: 40%;
+                display: block;
+            }
+
+                
+                
+                div#grupo2 audio{
+                margin-left: 20%;
+                margin-top: 3%;
+            }
+             
+            
+            h4#siga{
+                
+                top:9%;
+                left:80%; 
+            }
+            
+            
+            img#icone{
+                margin-top: 3%;
+                margin-right: 10%;
+            }*/
+                
+                
+                
+
+                article#fotos img{
+                //width: 245px;
+                height: 300px;
+                
+            }
+            
+            img#tv{
+                height: 430px;
+            }
+            
+            .video{
+              top: 15%;      
+              height: 1%;
+              //left: 48px;
+            }
+
+/*            .video iframe{
+              width: 100%;
+              height: 247px;
+              top: 0;
+              
+            }*/
+            
+                
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

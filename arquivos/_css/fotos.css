@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+
+
+header#fotos{
+            width: 100%;
+            height: 355px;
+            background-color: #f1f1f1;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            border-bottom: 2px solid #dddddd;
+            
+}
+
+.image{
+    width: 100%;
+    height: 370px;
+    margin: auto auto auto auto;
+    
+}
+
+section#secao{
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    background-color: #FFFFFF;
+    padding: 30px 30px;
+    
+    //margin: auto;
+}
+
+section#secao h1{
+    margin-left: 178px;
+}
+
+section#secao p{
+    margin-left: 180px;
+    margin-right: 180px;
+    font-size: 14pt;
+    text-indent: 5px;
+    text-align: justify;
+}
+
+ul#album-fotos{
+   width: 60%;
+    margin: 0 auto;
+    padding: 50px 0px 50px 0px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos li{
+   float: left;
+    width: 27.5%;
+    height: 200px;
+    margin: 1%;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: all .4s ease-in;
+}
+
+ul#album-fotos li span{
+    opacity: 0;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#album-fotos li:hover{
+    -webkit-transform: scale(1.5);
+}
+
+ul#album-fotos li:hover span{
+    opacity: 1;
+}
+
+ul#album-fotos li#foto01{
+    background: url('../_imagens/galeria01.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+    
+}
+
+ul#album-fotos li#foto01:hover{
+   background-position: 0px;
+    background-size: 100% 100%;
+}
+
+ul#album-fotos li#foto02{
+    background: url('../_imagens/galeria02.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+    
+}
+
+ul#album-fotos li#foto02:hover{
+    background-position: 0px;
+    background-size: 100% 100%;
+}
+
+ul#album-fotos li#foto03{
+    background: url('../_imagens/galeria03.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+    
+}
+
+ul#album-fotos li#foto03:hover{
+    background-position: 0px;
+    background-size: 100% 100%;
+}
+
+ul#album-fotos li#foto04{
+    background: url('../_imagens/galeria04.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+    
+}
+
+ul#album-fotos li#foto04:hover{
+    background-position: 0px;
+    background-size: 100% 100%;
+}
+
+ul#album-fotos li#foto05{
+    background: url('../_imagens/galeria05.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+    
+}
+
+ul#album-fotos li#foto05:hover{
+    background-position: 0px;
+    background-size: 100% 100%;
+}
+
+
+ul#album-fotos li#foto06{
+    background: url('../_imagens/galeria06.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+    
+}
+
+ul#album-fotos li#foto06:hover{
+    background-position: 0px;
+    background-size: 100% 100%;
+}
+
+@media(max-width:650px){
+ 
+section#secao h1{
+    margin-left: auto;
+    font-size: 20pt;
+}
+
+section#secao p{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13pt;
+    text-indent: 5px;
+    text-align: justify;
+}    
+    
+    
+    
+    
+header#fotos{
+            width: 100%;
+            height: 270px;
+            background-color: #f1f1f1;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            border-bottom: 2px solid #dddddd;
+            
+}    
+    
+ .image{
+    width: 100%;
+    height: 270px;
+    margin: auto auto auto auto;
+    
+}
+
+
+ul#album-fotos{
+    width: auto;
+}
+
+ul#album-fotos li{
+    width: 45%;
+    margin: 0.5%;
+}
+   
+}

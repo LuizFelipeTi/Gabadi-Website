@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+
+header#fotos{
+            width: 100%;
+            height: 355px;
+            background-color: #f1f1f1;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            border-bottom: 2px solid #dddddd;
+            
+}
+
+.image{
+    width: 100%;
+    height: 370px;
+    margin: auto auto auto auto;
+    
+}
+
+
+
+section#secao{
+    height: auto;
+    width: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: #FFFFFF;
+    padding: 30px 30px;
+    //border: dashed red 1px;
+}
+
+section#secao h1{
+    text-align: center;
+}
+
+section#secao p#descricao{
+    //text-indent: 25pt;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+
+
+form#formContato{
+    
+    //border: dashed red 2px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    
+}
+
+
+
+input, textarea{
+    opacity: .8;
+    border-radius: 8px;
+    //border: dashed red 3px;
+}
+
+fieldset#fale{
+    
+    max-width: 500px;
+    margin: 5px auto 0px auto;
+    border: 1px solid #dddddd;
+    height: auto;
+    width: 40%;
+    padding: 50px 20px;
+    background: url('../_imagens/icone-mensagem.png') no-repeat 95% 95%;
+    //border: dashed red 3px;
+
+}
+
+fieldset#fale p{
+    margin-left: 10%;
+    
+    
+}
+
+.contato{
+                 width: 60%; 
+                 margin: auto 9px;
+                 padding: 5px;
+                 background-color: #e1f5f5;
+                 border-radius: 15px;
+                 border: 1px solid #ffffff;
+                 font-size: 11pt;
+                 
+             }
+
+
+input#nome {
+    margin-left: 5%;
+    
+}
+
+input#email {
+    margin-left: 7.1%;
+}
+
+input#telefone {
+    margin-left: 2.5%;
+    
+}
+
+select#estados{
+    margin-left: 5%;
+}
+
+input#cidade {
+    //border-radius: initial;
+    margin-left: 5%;
+}
+
+input#botao{
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+div#areaTexto{
+    
+    display: table;
+    width: auto;
+    height: auto;
+    
+    
+}
+
+
+textarea#mensagem{
+    width: 65%;
+    position: relative;
+    margin-top: 3%;
+    margin-left: 1%;
+    //border: dashed red 1px;
+    
+}
+
+fieldset#fale p#pMsg{
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 2px;
+    //border: dashed red 3px;
+} 
+
+@media(max-width:650px){
+ 
+header#fotos{
+            width: 100%;
+            height: 270px;
+            background-color: #f1f1f1;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            border-bottom: 2px solid #dddddd;
+            
+}    
+    
+ .image{
+    width: 100%;
+    height: 270px;
+    margin: auto auto auto auto;
+    
+}   
+
+fieldset#fale{
+    
+    width: 85%;
+//    border: dashed red 1px;
+
+}
+
+}
